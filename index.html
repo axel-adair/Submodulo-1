@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Define el tipo de documento como HTML5 -->
+    <meta charset="UTF-8">
+<link rel="icon" href="imagenes/logo.jpg" type="image/png">
+
+    <!-- Establece la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura la vista para que sea responsive, ajustando el ancho a la ventana del dispositivo y estableciendo la escala inicial a 1.0 -->
+    <title>Axel Adair Obregon Martinez 2 IV</title>
+    <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Enlace al archivo CSS para los estilos generales de la página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <!-- Preconexión a Google Fonts para mejorar el rendimiento de carga de la fuente -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Preconexión a Google Fonts para solicitudes cruzadas con credenciales -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Enlace a Google Fonts para importar la fuente 'Roboto' con pesos 400 y 700 -->
+    <script src="script.js" defer></script>
+    <!-- Enlace al archivo JavaScript para el efecto de zoom -->
+</head>
+<body>
+    <!-- Cuerpo del documento HTML -->
+    <header>
+<img src="imagenes/logo.jpg" alt="Logo de MIAAU" class="logo">
+        <!-- Sección de cabecera de la página -->
+        <h1>MIAAU</h1>
+        <!-- Título principal del sitio web -->
+        <p>¡LA MODA QUE TE ACOMPAÑA!</p>
+        <!-- Slogan de la empresa -->
+        <nav>
+            <!-- Sección de navegación -->
+            <ul>
+                <!-- Lista no ordenada de enlaces de navegación -->
+                <li><a href="#productos">PRODUCTOS</a></li>
+                <!-- Enlace a la sección de productos -->
+                <li><a href="#historia">HISTORIA</a></li>
+                <!-- Enlace a la sección de historia -->
+                <li><a href="#informacion">INFORMACION</a></li>
+                <!-- Enlace a la sección de información -->
+                <li><a href="#contacto">CONTACTO</a></li>
+                <!-- Enlace a la sección de contacto -->
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="productos" class="products">
+        <!-- Sección de productos con un identificador único 'productos' y clase 'products' -->
+        <h2>NUESTROS PRODUCTOS</h2>
+        <!-- Subtítulo de la sección de productos -->
+        <div class="product" data-image="imagenes/teddy.jpg">
+            <!-- Contenedor para un producto individual con clase 'product' -->
+            <div class="product-img-container">
+                <!-- Contenedor de la imagen del producto para efecto de zoom -->
+                <img src="imagenes/teddy.jpg" alt="Sudadera Teddy">
+                <!-- Imagen del producto con su ruta y texto alternativo -->
+            </div>
+            <h3>SUDADERA TEDDY</h3>
+            <!-- Título del producto -->
+            <ul class="description">
+                <li>Sudadera Derek hear.</li>
+<li>Talla mediana.</li>
+<li>Color cafe.</li>
+<li>Crop-top.</li>
+<li>Tela afelpada.</li>
+<li>Excelente calidad.</li>
+
+            </ul>
+            <!-- Descripción del producto como lista desordenada -->
+            <p class="price">$250.00</p>
+            <!-- Precio del producto con clase 'price' -->
+        </div>
+ 
+        <div class="product" data-image="imagenes/falda.jpg">
+            <!-- Contenedor para otro producto -->
+            <div class="product-img-container">
+                <!-- Contenedor de la imagen del producto para efecto de zoom -->
+                <img src="imagenes/falda.jpg" alt="Falda">
+                <!-- Imagen del producto con su ruta y texto alternativo -->
+            </div>
+            <h3>FALDA </h3>
+            <!-- Título del producto -->
+            <ul class="description">
+                <li>Falda de mezclilla.</li>
+<li>Marca VIGOSS.</li>
+<li>Talla 9.</li>
+<li>Tela rigida.</li>
+<li>Mezclilla desteñida.</li>
+<li>Excelente calidad.</li>
+
+            </ul>
+            <!-- Descripción del producto como lista desordenada -->
+            <p class="price">$150.00</p>
+            <!-- Precio del producto con clase 'price' -->
+        </div>
+        
+        <div class="product" data-image="imagenes/sueter.jpg">
+            <!-- Contenedor para otro producto -->
+            <div class="product-img-container">
+                <!-- Contenedor de la imagen del producto para efecto de zoom -->
+                <img src="imagenes/sueter.jpg" alt="Sueter">
+                <!-- Imagen del producto con su ruta y texto alternativo -->
+            </div>
+            <h3>SUÉTER</h3>
+            <!-- Título del producto -->
+            <ul class="description">
+                <li>Sueter SONOMA.</li>
+<li>Color negro.</li>
+<li>Estampado.</li>
+<li>Manga larga.</li>
+<li>Talla Mediana.</li>
+<li>Strech.</li>
+            </ul>
+            <!-- Descripción del producto como lista desordenada -->
+            <p class="price">$180.00</p>
+            <!-- Precio del producto con clase 'price' -->
+        </div>
+        
+        <div class="product" data-image="imagenes/vestido.jpg">
+            <!-- Contenedor para otro producto -->
+            <div class="product-img-container">
+                <!-- Contenedor de la imagen del producto para efecto de zoom -->
+                <img src="imagenes/vestido.jpg" alt="Vestido">
+                <!-- Imagen del producto con su ruta y texto alternativo -->
+            </div>
+            <h3>VESTIDO</h3>
+            <!-- Título del producto -->
+            <ul class="description">
+                <li>Vestido DIVIDED HYM.</li>
+<li>Rojo con estampado floreado.</li>
+<li>Talla 8 (Mediana).</li>
+<li>Sin mangas.</li>
+<li>Abertura en la espalda.</li>
+<li>Tela delgada.</li>
+            </ul>
+            <!-- Descripción del producto como lista desordenada -->
+            <p class="price">$200.00</p>
+            <!-- Precio del producto con clase 'price' -->
+        </div>
+        
+        <div class="product" data-image="imagenes/chamarra.jpg">
+            <!-- Contenedor para otro producto -->
+            <div class="product-img-container">
+                <!-- Contenedor de la imagen del producto para efecto de zoom -->
+                <img src="imagenes/chamarra.jpg" alt="Chamarra">
+                <!-- Imagen del producto con su ruta y texto alternativo -->
+            </div>
+            <h3>CHAMARRA</h3>
+            <!-- Título del producto -->
+            <ul class="description">
+                <li>Chamarra SIMPLY BASIC. </li>
+<li>Color negro.</li>
+<li>Talla Chica.</li>
+<li>Afelpado negro por dentro.</li>
+<li>Tipo rompe vientos.</li>
+<li>Gorro desprendible.</li>
+            </ul>
+            <!-- Descripción del producto como lista desordenada -->
+            <p class="price">$300.00</p>
+            <!-- Precio del producto con clase 'price' -->
+        </div>
+    </section>
+
+    <section id="historia">
+        <!-- Sección de historia con un identificador único 'historia' -->
+        <h2>NUESTRA HISTORIA</h2>
+        <!-- Subtítulo de la sección de historia -->
+        <p>Todo comenzó con Erika, una apasionada de la moda vintage y una buscadora incansable de tesoros ocultos en tiendas de segunda mano.</p>
+
+        <p>Erika siempre creyó en la belleza de lo único y lo sostenible. Un día, mientras exploraba una tienda encantadora, tuvo una epifanía: ¿por qué no compartir su pasión con otros? Con valentía y determinación, reunió sus ahorros y el apoyo de amigos y familiares para hacer realidad su visión.</p>
+
+        <p>Así nació nuestra tienda, un espacio acogedor y lleno de encanto en el corazón del vecindario. Con la ayuda de amigos creativos y amantes de la moda como ella, Erika y Laura transformó el local en un refugio para quienes valoran la calidad y el carácter único de cada prenda.</p>
+
+        <p>Desde entonces, hemos crecido junto con nuestra comunidad, atrayendo a clientes que buscan piezas especiales con historias que contar. Cada prenda que ofrecemos no solo es una expresión de estilo, sino también un compromiso con la sostenibilidad y la individualidad.</p>
+
+        <p>Únete a nosotros en nuestra misión de celebrar la moda con conciencia. Descubre el encanto de lo vintage, la emoción de encontrar tu próxima joya de moda, y sé parte de nuestra historia en cada visita a nuestra tienda.</p>
+        <!-- Párrafos describiendo la historia de la empresa -->
+    </section>
+   <section id="informacion">
+    <!-- Sección de información con un identificador único 'informacion' -->
+<section id="informacion" style="background-image: url('imagenes/rosaa.jpg'); background-size: cover; background-position: center;">
+
+    <h2>INFORMACION DE INTEGRANTES</h2>
+    <!-- Subtítulo de la sección de información -->
+
+    <div class="owner">
+        <!-- Contenedor para el dueño -->
+                <!-- Imagen del dueño con texto alternativo -->
+        <h3>DUEÑO</h3>
+        <!-- Título del dueño -->
+        <p>Erika Martinez Santillan, es la dueña general del negocio, con una visión innovadora en moda sostenible. Trabaja en colaboración con diseñadores locales para promover la ecomodificación en la industria.</p>
+<img src="imagenes/dueño.jpg" alt="Imagen del Dueño">
+
+        <!-- Descripción del dueño -->
+    </div>
+
+    <div class="owner">
+        <!-- Contenedor para el socio -->
+                <!-- Imagen del socio con texto alternativo -->
+        <h3>SOCIO</h3>
+        <!-- Título del socio -->
+        <p>Laura Alicia Santillan Sanchez, co-fundador y socio de Tienda de Ropa XYZ, aporta su pasión por la sostenibilidad y la innovación en la moda. Su enfoque en tendencias emergentes y materiales eco-amigables refleja nuestro compromiso con la comunidad y el medio ambiente.</p>
+<img src="imagenes/socio.jpg" alt="Imagen del Socio">
+
+        <!-- Descripción del socio -->
+    </div>
+<div class="owner">
+        <!-- Contenedor para el socio -->
+        <!-- Imagen del socio con texto alternativo -->
+        <h3>TRABAJADOR</h3>
+        <!-- Título del socio -->
+        <p>Jailene Trejo, se encarga de asegurar que cada cliente reciba un servicio personalizado y atento. Con su pasión por la moda y su compromiso con la excelencia, asegura que cada visita a nuestra tienda sea una experiencia memorable y satisfactoria para nuestros clientes.</p>
+        <img src="imagenes/trabajador.jpg" alt="Imagen del Socio">
+
+        <!-- Descripción del socio -->
+    </div>
+
+</section>
+    
+    <section id="contacto">
+        <!-- Sección de contacto con un identificador único 'contacto' -->
+<section id="contacto" style="background-image: url('imagenes/rosa.jpg'); background-size: cover; background-position: center;">
+      
+  <h2>CONTACTO</h2>
+
+
+    <!-- Contenido de la sección de contacto -->
+
+        <!-- Subtítulo de la sección de contacto -->
+        <p>Dirección: Calle Alvaro Obregon #39, Colonia Ejidal, Chalco Estado de Mexico.</p>
+<p>WhatsApp: 5561588204</p>
+
+        <!-- Dirección de la empresa -->
+        
+        <!-- Enlace a Google Maps para ver la ubicación de la empresa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.373626901577!2d-98.90225972506576!3d19.266111645977315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1ec8587d3aab%3A0x141ec48c1d63b4e!2sCalle%20%C3%81lvaro%20Obreg%C3%B3n%2039%2C%20Chalco%20Centro%2C%2056604%20Chalco%20de%20D%C3%ADaz%20Covarrubias%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1720246606141!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Mapa de Google Maps para mostrar la ubicación -->
+        <p>Más información sobre nuestra tienda...</p>
+        <!-- Invitación a conocer más sobre la tienda -->
+        <ul>
+            <!-- Lista no ordenada de enlaces a redes sociales -->
+           
+            <li><a href="https://www.instagram.com/miaau_uu/">Instagram</a></li>
+            <!-- Enlace a la página de Instagram -->
+           
+        </ul>
+    </section>
+    
+    <footer>
+        <!-- Pie de página -->
+        <p>&copy; AXEL ADAIR OBREGON MARTINEZ 2 IV.</p>
+        <!-- Derechos de autor -->
+    </footer>
+</body>
+</html>
+
